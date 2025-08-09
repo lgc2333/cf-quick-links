@@ -1,18 +1,25 @@
 {
-	"name": "quick-links",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"deploy": "wrangler deploy",
-		"dev": "wrangler dev",
-		"start": "wrangler dev",
-		"test": "vitest",
-		"cf-typegen": "wrangler types"
-	},
-	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.8.19",
-		"typescript": "^5.5.2",
-		"vitest": "~3.2.0",
-		"wrangler": "^4.28.1"
-	}
+  "name": "quick-links",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.0",
+    "@cloudflare/vitest-pool-workers": "^0.8.19",
+    "@prettier/plugin-xml": "^3.4.2",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.0",
+    "wrangler": "^4.28.1"
+  }
 }
